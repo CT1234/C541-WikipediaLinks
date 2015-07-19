@@ -1,6 +1,7 @@
 # WikipediaLinks Project Summary#
 
 ***(see powerpoint for full description and results)***
+***(Due to extremely large text file sizes, files on github are shortened.)***
 
 ##Analyze correlation of Wikipedia Page Popularity by:##
 
