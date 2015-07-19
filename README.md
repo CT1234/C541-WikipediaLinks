@@ -23,11 +23,11 @@ For the year of 2010...
 
 ##Data Refining##
 
-Map: {PageID, [YearsHits, Size, LinksIn, LinksOut]}  
-Reduce: YearsHits = sum(hits/month)  
-Size = largest size recorded  
-LinksIn = # of times in PageLinks.ToPage  
-LinksOut = # of times in PageLinks.FromPage  
+- Map: {PageID, [YearsHits, Size, LinksIn, LinksOut]}  
+- Reduce: YearsHits = sum(hits/month)  
+- Size = largest size recorded  
+- LinksIn = # of times in PageLinks.ToPage  
+- LinksOut = # of times in PageLinks.FromPage  
 
 ##Data reduction for analysis:##
 
