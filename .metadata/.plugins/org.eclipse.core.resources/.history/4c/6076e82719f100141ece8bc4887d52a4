@@ -1,0 +1,26 @@
+public class PageNode 
+{
+	int outLinks;
+	int inLinks;
+	int pageHits;
+	
+	public PageNode()
+	{
+		outLinks = 0;
+		inLinks = 0;
+		pageHits = 0;
+	}
+	
+	public void addOutLink()
+	{
+		this.outLinks++;
+	}
+	public void addInLink()
+	{
+		this.inLinks++;
+	}
+	public void addPageHit(int pageHits)
+	{
+		this.pageHits = pageHits;
+	}
+}

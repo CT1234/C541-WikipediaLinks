@@ -1,0 +1,13 @@
+import java.io.IOException;
+
+public class LinkReader 
+{
+	public static void main(String[] args) throws IOException
+	{
+		ReadFile2Map reader = new ReadFile2Map();		
+		reader.readLinks();
+		
+		System.out.println("done");
+	}
+	
+}
